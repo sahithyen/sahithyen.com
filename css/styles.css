@@ -1,0 +1,90 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.strangeorbits {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.intro {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.typewriter {
+  font-size: 32px;
+}
+
+nav {
+  position: absolute;
+  top: 25px;
+  left: 40px;
+  right: 40px;
+  font-size: 18px;
+}
+
+nav li {
+  display: block;
+  float: right;
+  margin-left: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:link {
+  color: white;
+}
+
+nav a:visited {
+  color: white;
+}
+
+nav a:hover {
+  color: orange;
+}
+
+nav a:active {
+  color: white;
+}
+
+address {
+  float: left;
+}
+
+@media screen and (max-width: 640px) {
+  .typewriter {
+    font-size: 20px;
+  }
+
+  nav {
+    position: absolute;
+    top: 15px;
+    left: 24px;
+    right: 24px;
+    font-size: 11px;
+  }
+
+  nav li {
+    margin-left: 30px;
+  }
+}
