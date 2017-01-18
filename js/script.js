@@ -17,9 +17,6 @@
     }, {
       image: 'img/github.png',
       text: 'Visit my GitHub profile to see my projects'
-    }, {
-      image: 'img/wordpress.png',
-      text: 'Or read my thaughts in my blog'
     }],
     displayedLetters = 0,
     currentSlide = 0,
